@@ -1,0 +1,108 @@
+html {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 20px;
+    background-image: url("../images/bg.webp");
+    background-size: cover;
+}
+
+body {
+    /*background-color: #ddd;*/
+    margin: 0;
+}
+
+ul.navbar {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+li.navbar-item, li.navbar-item-selected {
+    color: white;
+    float: left;
+}
+
+li.navbar-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbar-item a:hover {
+    background-color: #111;
+}
+
+li.navbar-item-selected a {
+    display: block;
+    background-color: #634832;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbar-item-selected a:hover {
+    background-color: #634832;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#pp {
+    display: block;
+    margin-left: 100px;
+    width: 200px;
+}
+
+.biodata-box {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+#about-left {
+    flex-basis: 20%;
+}
+
+#about-right {
+    font-size: 30px;
+    padding-left: 20px;
+    max-width: 35%;
+}
+
+ul.biodata {
+    list-style-type: none;
+}
+
+.mini-box {
+    margin-left: 20%;
+}
+
+.list {
+    font-size: 30px;
+}
+
+.big-list {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.big-img {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 2px solid #634832;
+}
